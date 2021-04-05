@@ -1,0 +1,21 @@
+.content {
+  margin: 0 auto;
+  max-width: 73rem;
+}
+
+.inner-content {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2.5rem;
+  padding-left: 3rem;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 650px) {
+  .inner-content {
+    padding: 0 30px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

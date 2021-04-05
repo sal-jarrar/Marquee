@@ -1,0 +1,27 @@
+.subhead {
+  width: 22.5rem;
+  height: 14.188rem;
+  font-family: HelveticaNeue;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  color: white;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  padding: 5.5rem 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 645px) {
+  .subhead {
+    width: 100%;
+    padding: 1rem 0.3rem;
+  }
+}
+@media (min-width: 660px) and (max-width: 900px) {
+  .subhead {
+    padding: 3.3rem 0.5rem;
+  }
+}

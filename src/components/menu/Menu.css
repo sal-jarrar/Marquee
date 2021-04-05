@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .active {
+  color: #ffc004;
+}
+
+.navbar {
+  width: 4.563rem;
+  height: 4.875rem;
+  margin: 0.313rem 59.875rem 0 0;
+  font-family: HelveticaNeue;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+}
+ul {
+  list-style-type: none;
+}

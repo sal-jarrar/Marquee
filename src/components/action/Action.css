@@ -1,0 +1,64 @@
+.action {
+  width: 73rem;
+  height: 11rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.cta {
+  width: 30.188rem;
+  height: 2rem;
+  margin: 0 13.75rem 0 0;
+  font-family: HelveticaNeue;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.63px;
+  color: black;
+}
+.talk {
+  width: 16.454rem;
+  height: 1.25rem;
+  margin: 0.063rem 0;
+  font-family: HelveticaNeue;
+  font-size: 0.688rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: 1px;
+  color: black;
+}
+.fas {
+  color: #ffc004;
+  padding: 0 0.7rem;
+  width: 1.125rem;
+  height: 0.75rem;
+}
+@media (min-width: 320px) and (max-width: 645px) {
+  .action {
+    width: 100%;
+    padding: 1rem 3rem;
+  }
+  .cta {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 650px) and (max-width: 900px) {
+  .action {
+    width: 100%;
+    padding: 1rem 0.3rem;
+  }
+  .cta {
+    padding: 0 3rem;
+  }
+}

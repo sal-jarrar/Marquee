@@ -1,0 +1,16 @@
+.home {
+  overflow: auto;
+  background-size: cover;
+  background-position: center top;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 650px) {
+  .home {
+    background-size: 1440px;
+  }
+}

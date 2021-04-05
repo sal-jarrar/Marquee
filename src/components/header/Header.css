@@ -1,0 +1,31 @@
+.layout {
+  margin: 0 auto;
+  max-width: 73rem;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3.2rem;
+  padding-top: 1rem;
+}
+button {
+  width: 8.688rem;
+  height: 2.625rem;
+  padding: 0.75rem 0.063rem 0.75rem 0;
+  border: solid 1px white;
+  background-color: inherit;
+  color: white;
+}
+
+.inner-menu {
+  padding-left: 3rem;
+}
+@media (min-width: 320px) and (max-width: 650px) {
+  .inner {
+    padding: 0.2rem 1.2rem;
+  }
+  .inner-menu {
+    padding: 0.2rem 1.3rem;
+  }
+}
